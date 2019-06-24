@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
         bird_gender << gender.to_s
       end
     end
-  #why is this adding male for all female birds???
+  
     
     bird_home = []
     data[:lives].each do |home, name_array|
